@@ -12,7 +12,7 @@ var material = new THREE.MeshBasicMaterial({ color: 0xff0000, wireframe: true })
 var sphere = new THREE.Mesh(geometry, material);
 scene.add(sphere);
 
-function anim() {
+function animate() {
     requestAnimationFrame(animate);
 
     sphere.rotation.x += 0.01;
